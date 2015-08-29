@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aula2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_name">Informe seu nome:</string>
+    <string name="title_activity_secondary">SecondaryActivity</string>
+    <string name="toast_message">Desenvolvedor: %s</string>
+    <string name="error_message_toast"> Informe um nome para prosseguir para uma ação válida.</string>
+    <string name="secondary_activity_label">Parabéns você criou sua primeira interação entre telas!! Agora pode praticar mais. =]</string>
+</resources>
