@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Aula3</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="label_name">Informe seu nome:</string>
+    <string name="title_activity_secondary">SecondaryActivity</string>
+    <string name="toast_message">Desenvolvedor: %s</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="error_message_toast"> Informe um nome para prosseguir para uma ação válida.</string>
+    <string name="secondary_activity_label">Parabéns %s, você criou sua primeira interação entre telas com passagem de argumentos via intent.!!=] Treine mais, passando novos tipos.</string>
+    <string name="title_activity_grouping_dialog">GroupingDialogActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_manager">ManagerActivity</string>
+    <string name="label_academia_jedi">Academia Jedi</string>
+    <string name="label_activity">Lista de atividades:</string>
+    <string name="label_button_intent">Intent</string>
+    <string name="label_dialog">diálogos</string>
+    <string name="label_fragment">Fragment e Tabs</string>
+    <string name="title_activity_fragment_and_tabs">FragmentAndTabsActivity</string>
+    <string name="label_toast_chose_activity">Problemas ao identificar a ação desejada. Clique novamente no botão desejado.</string>
+</resources>
