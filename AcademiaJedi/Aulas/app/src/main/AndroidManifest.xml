@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tmbs.academia_jedi.aula3" >
+    package="tmbs.academia_jedi.aulas">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".ui.MainActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name=".ui.SecondaryActivity"
-            android:label="@string/title_activity_secondary" >
-        </activity>
-        <activity
-            android:name=".ui.GroupingDialogActivity"
-            android:label="@string/title_activity_grouping_dialog" >
-        </activity>
-        <activity
-            android:name=".ui.ManagerActivity"
-            android:label="@string/title_activity_manager" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".component.dataTransferBetweenActivities.intent.IntentExampleActivity"></activity>
+        <activity android:name=".component.dataTransferBetweenActivities.intent.IntentSecondActivity"></activity>
+        <activity android:name=".ui.GroupingDialogActivity"></activity>
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.FragmentAndTabsActivity"></activity>
+        <activity android:name=".ui.component.googleActivityLifecycle.ActivityA"></activity>
+        <activity android:name=".ui.component.googleActivityLifecycle.ActivityB" />
+        <activity android:name=".ui.component.googleActivityLifecycle.ActivityC" />
         <activity
-            android:name=".ui.component.FragmentAndTabsActivity"
-            android:label="@string/title_activity_fragment_and_tabs" >
-        </activity>
+            android:name=".ui.component.googleActivityLifecycle.DialogActivity"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".ui.ManagerListViewActivity"></activity>
+        <activity android:name=".component.dataTransferBetweenActivities.startForResult.FirstResultActivity"></activity>
+        <activity android:name=".component.dataTransferBetweenActivities.startForResult.SecondResultActivity"></activity>
+        <activity android:name=".ui.component.listView.FirstListViewActivity"></activity>
+        <activity android:name=".ui.component.listView.SecondListViewActivity"></activity>
+        <activity android:name=".component.dataTransferBetweenActivities.bundle.BundleExampleActivity"></activity>
+        <activity android:name=".component.dataTransferBetweenActivities.startForResult.ResultExampleActivity"></activity>
+        <activity android:name=".ui.component.actionBarAndMenu.ActionBarAndMenuActionActivity"></activity>
+        <activity android:name=".component.dataTransferBetweenActivities.bundle.BundleSecondActivity"></activity>
+        <activity android:name=".component.dataTransferBetweenActivities.ChooseTransactionActivity"></activity>
     </application>
 
 </manifest>

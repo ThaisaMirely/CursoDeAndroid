@@ -1,23 +1,90 @@
 <resources>
-    <string name="app_name">Aula3</string>
+
+    <!--  Google Activity LifeCycle example !-->
+    <string name="lifecycle_method_list">Lifecycle Method List</string>
+    <string name="activity_status">Activity Status</string>
+    <string name="dialog_text">Simple Dialog</string>
+
+    <string name="on_create">onCreate</string>
+    <string name="on_destroy">onDestroy</string>
+    <string name="on_start">onStart</string>
+    <string name="on_restart">onRestart</string>
+    <string name="on_stop">onStop</string>
+    <string name="on_pause">onPause</string>
+    <string name="on_resume">onResume</string>
+
+    <string name="activity_a_label">Activity A</string>
+    <string name="activity_b_label">Activity B</string>
+    <string name="activity_c_label">Activity C</string>
+
+    <string name="btn_start_a_label">Start A</string>
+    <string name="btn_start_b_label">Start B</string>
+    <string name="btn_start_c_label">Start C</string>
+    <string name="btn_start_dialog_label">Dialog</string>
+
+    <string name="btn_finish_a_label">Finish A</string>
+    <string name="btn_finish_b_label">Finish B</string>
+    <string name="btn_finish_c_label">Finish C</string>
+    <string name="btn_finish_dialog_label">Close</string>
+
+    <string name="on_activity_created">onActivityCreated</string>
+    <string name="on_attach">onAttach</string>
+    <string name="on_create_view">onCreateView</string>
+    <string name="on_destroy_view">onDestroyView</string>
+    <string name="on_detach">onDetach</string>
+    <string name="on_view_created">onViewCreated</string>
+    <string name="activity_a">Activity A</string>
+
+    <string name="start_a">Start A</string>
+    <string name="start_b">Start B</string>
+    <string name="start_c">Start C</string>
+
+    <string name="close">Close</string>
+    <string name="dialog">Dialog</string>
+    <string name="title_activity_bundle_example">BundleExampleActivity</string>
+
+    <!-- My examples !-->
+
+    <string name="app_name">Código de Aulas</string>
 
     <string name="action_settings">Configurações</string>
-    <string name="label_name">Informe seu nome:</string>
-    <string name="title_activity_secondary">SecondaryActivity</string>
-    <string name="toast_message">Desenvolvedor: %s</string>
-    <string name="label_ok">OK</string>
-    <string name="label_cancel">Cancelar</string>
-    <string name="error_message_toast"> Informe um nome para prosseguir para uma ação válida.</string>
-    <string name="secondary_activity_label">Parabéns %s, você criou sua primeira interação entre telas com passagem de argumentos via intent.!!=] Treine mais, passando novos tipos.</string>
-    <string name="title_activity_grouping_dialog">GroupingDialogActivity</string>
+    <string name="action_search">Pesquisa</string>
+    <string name="intent_secondary_activity">Parabéns %s, você criou sua primeira interação entre telas com passagem de argumentos via intent.!!=] Treine mais, passando novos tipos.</string>
+    <string name="bundle_secondary_activity">Parabéns %s, você criou sua primeira interação entre telas com passagem de argumentos via Bundle.!!=] Treine mais, passando novos tipos.</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_manager">ManagerActivity</string>
-    <string name="label_academia_jedi">Academia Jedi</string>
+    <string name="pick_color">Selecione uma cor</string>
+
+    <string name="message_simple_dialog">Essa é uma estrutura de diálogo simples. Contém título, mesagem e ações com um botão.</string>
+    <string name="message_dialog_fragment_test">Testando estrutura DialogFragment. Clique em ok para continuar suas atividades.</string>
+    <string name="error_message_toast"> Informe um nome para prosseguir para uma ação válida.</string>
+
+    <string name="toast_message_dialog_fragment_action">Implemente novos estilos de diálogos. =] </string>
+    <string name="toast_message">Desenvolvedor: %s</string>
+
+    <string name="label_first_listView_example">Exemplo utilizando ArrayAdapter</string>
+    <string name="label_second_listView_example">Exemplo utilizando layout customizado</string>
+    <string name="label_intent_example">Manipulando Dados Via Intent</string>
+    <string name="label_bundle_example">Manipulando Dados Via Bundle</string>
+
+    <string name="label_listView_examples">ListView Exemplos</string>
+    <string name="label_button_searchView">ActionBar com menu de busca</string>
+    <string name="label_button_listView">Listview e Adapter</string>
+    <string name="label_button_lifecycle">Ciclo de vida (código Google)</string>
+    <string name="label_ok">OK</string>
+    <string name="label_name">Informe seu nome:</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_simple_dialog">Diálogo Simples</string>
+    <string name="label_dialog_pick_item">Diálogo com seleção de itens</string>
     <string name="label_activity">Lista de atividades:</string>
     <string name="label_button_intent">Intent</string>
-    <string name="label_dialog">diálogos</string>
+    <string name="label_dialog">Diálogos</string>
     <string name="label_fragment">Fragment e Tabs</string>
-    <string name="title_activity_fragment_and_tabs">FragmentAndTabsActivity</string>
+    <string name="label_dialog_fragment">Diálogo Fragment</string>
     <string name="label_toast_chose_activity">Problemas ao identificar a ação desejada. Clique novamente no botão desejado.</string>
+    <string name="title_activity_choose_transaction">ChooseTransactionActivity</string>
+
+    <string name="label_data_transaction_between_activities">Transação de Dados Entre Activities</string>
+    <string name="label_data_manipulation_intent">Bundle</string>
+    <string name="label_data_manipulation_activity_result">StartForResult</string>
+
 </resources>
